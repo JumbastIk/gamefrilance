@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Go
+*.mod
+*.sum
+vendor/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+*.pid
+*.sock
+
+# Frontend
+web/node_modules/
+web/.next/
+web/out/
+web/build
+
+# Backups
+backups/
+*.sql
+*.gz
